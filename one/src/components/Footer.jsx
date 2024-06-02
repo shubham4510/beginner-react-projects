@@ -2,9 +2,12 @@ import React from 'react'
 
 const Footer = () => {
   return (
-    <footer>
-        <h1>TechStar</h1>
+    <footer style={{display:'flex',justifyContent:'space-between'}}>
+      <div>
+      <h1>TechStar</h1>
         <p>@all right reserved</p>
+      </div>
+        
 
         <div>
             <h5>
