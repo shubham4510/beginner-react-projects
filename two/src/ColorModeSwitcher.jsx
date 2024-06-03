@@ -17,6 +17,7 @@ const SwitchIcon = useColorModeValue(FaMoon,FaSun)
       top={'4'}
       right={'4'}
       icon={icon}
+      zIndex={'overlay'}
       {...props}
     />
   );
