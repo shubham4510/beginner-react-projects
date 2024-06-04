@@ -1,0 +1,48 @@
+@import 'colors';
+
+nav{
+    background-color: $secondary;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 2rem;
+
+
+    > h2{
+        text-transform: uppercase;
+        color: $primary;
+    }
+
+    > div{
+        display: flex;
+        align-items: center;
+
+        > a{
+            color: $primary;
+            font-size: 1.2rem;
+            margin: 0 1rem;
+            transition: all 0.3s;
+            display: flex;
+            position: relative;
+
+            &:hover{
+                opacity: 0.8;
+            }
+
+            > p{
+                height: 16px;
+                width: 16px;
+                font-size: 13px;
+                font: 900;
+                position: absolute;
+                text-align: center;
+                right: -11px;
+                top: -10px;
+                background-color: $tertiary;
+                border-radius: 50%;
+            }
+        }
+    }
+}
+
+
